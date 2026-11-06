@@ -1,18 +1,18 @@
-Customer Retention & Churn Analysis
+#Customer Retention & Churn Analysis
 
-Project Overview
+##Project Overview
 
 This project explores customer activity, repeat purchasing, subscription retention, and customer churn across three illustrative business types.
 
 The goal is to demonstrate how data analysis can help businesses understand customer behavior and identify opportunities to improve retention.
 
-Business Types
+##Business Types
 
 - Online Shopping
 - Mobile Accessories
 - Subscription Service
 
-Dataset Description
+##Dataset Description
 
 The sample dataset contains:
 
@@ -22,7 +22,7 @@ The sample dataset contains:
 
 Note: All data are illustrative and were created for learning and portfolio demonstration.
 
-Tools and Technologies
+##Tools and Technologies
 
 - SQL (SQLite)
 - Python
@@ -30,7 +30,7 @@ Tools and Technologies
 - Matplotlib
 - Google Colab
 
-Analysis Performed
+##Analysis Performed
 
 1. Created customer and customer activity tables.
 2. Used SQL JOINs to combine customer information with activity records.
@@ -41,7 +41,7 @@ Analysis Performed
 7. Used Pandas to inspect and summarize customer data.
 8. Created visualizations using Matplotlib.
 
-Key Findings
+##Key Findings
 
 - Online Shopping had one repeat purchaser and one single-purchase customer.
 - Mobile Accessories had one repeat purchaser and one single-purchase customer.
@@ -50,24 +50,24 @@ Key Findings
 - Subscription-retention rate: 50%.
 - Subscription churn rate: 50%.
 
-Business Recommendations
+##Business Recommendations
 
 - Investigate the reasons behind subscription cancellations.
 - Encourage single-purchase customers to make repeat purchases.
 - Monitor subscription renewals and cancellations.
 - Collect more customer data to support stronger business decisions.
 
-Visualizations
+##Visualizations
 
-1. Customer Status by Business Type
+###1. Customer Status by Business Type
 
 Shows the distribution of customer statuses across the three business types.
 
-2. Customer Activity Breakdown
+###2. Customer Activity Breakdown
 
 Compares purchases, subscription starts, renewals, and cancellations.
 
-Conclusion
+##Conclusion
 
 This project demonstrates how SQL and Python can be combined to examine customer behavior, measure retention indicators, identify cancellations, and develop practical business recommendations.
 
